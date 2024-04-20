@@ -1,0 +1,53 @@
+body {
+  background-color: #E3E3E3;
+  font-family: "Montserrat", sans-serif;
+}
+
+.head {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 500px;
+  height: 40px;
+  width: 90%;
+  max-width: 480px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  display: fixed;
+}
+
+h4 {
+  margin-left: 20px;
+  font-weight: normal;
+}
+
+.products {
+  margin-left: 20px;
+  width: 150px;
+}
+
+.os {
+  margin-left: 100px;
+}
+
+button {
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 100px;
+  color: black;
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+
+h2 {
+  margin-top: 39px;
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 10px;
+}
