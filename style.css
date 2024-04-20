@@ -4,50 +4,58 @@ body {
 }
 
 .head {
-  display: flex;
   background-color: rgba(255, 255, 255, 0.6);
   border: none;
-  border-radius: 500px;
+  border-radius: 25px; 
   height: 40px;
   width: 90%;
-  max-width: 480px;
+  max-width: 380px; 
+  margin: 0 auto; 
+  display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  display: fixed;
 }
 
 h4 {
-  margin-left: 20px;
+  margin-left: 10px; 
   font-weight: normal;
 }
 
 .products {
-  margin-left: 20px;
-  width: 150px;
+  margin-left: 10px; 
+  width: 150px; 
 }
 
 .os {
-  margin-left: 100px;
+  margin-left: 20px; 
 }
 
 button {
   border: none;
   height: 30px;
   width: 100px;
-  border-radius: 100px;
+  border-radius: 15px;
   color: black;
   font-family: "Montserrat";
   font-size: 14px;
 }
 
 h2 {
-  margin-top: 39px;
+  margin-top: 20px;
   margin-left: 10px;
 }
 
 p {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .head {
+    width: 90%;
+    max-width: 90%;
+  }
+  
+  button {
+    font-size: 10px;
+  }
 }
